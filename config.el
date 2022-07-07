@@ -1,7 +1,7 @@
-(setq user-full-name "JJ Kim"
-      user-mail-address "jj@haedosa.xyz")
+(setq user-full-name "ChiyoungLee"
+      user-mail-address "khow@haedosa.xyz")
 
-(setq default-input-method "korean-hangul3f")
+(setq default-input-method "korean-hangul")
 
 (setq-default backup-directory-alist '(("" . "~/.backup"))
               make-backup-files t
@@ -28,13 +28,12 @@
   (variable-pitch ((t (:family "Noto Sans CJK KR"))))
 )
 
-;; M-x counsel-fonts for other font options
-;; (use-package! face-remap
-;;   :custom-face
-;;   (default ((t (:family "SauceCodePro Nerd Font Mono"))))
-;;   (fixed-pitch ((t (:family "SauceCodePro Nerd Font Mono"))))
-;;   (variable-pitch ((t (:family "SauceCodePro Nerd Font"))))
-;; )
+(use-package! face-remap
+  :custom-face
+  (default ((t (:family "DroidSansMono Nerd Font Mono"))))
+  (fixed-pitch ((t (:family "SauceCodePro Nerd Font Mono"))))
+  (variable-pitch ((t (:family "DroidSansMono Nerd Font Mono"))))
+)
 
 (use-package! mixed-pitch
   :hook

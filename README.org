@@ -384,15 +384,15 @@ yaml              ; JSON, but readable
 
 #+begin_src emacs-lisp
 
-(setq user-full-name "JJ Kim"
-      user-mail-address "jj@haedosa.xyz")
+(setq user-full-name "ChiyoungLee"
+      user-mail-address "khow@haedosa.xyz")
 
 #+end_src
 ** Hangul
 
 #+begin_src emacs-lisp
 
-(setq default-input-method "korean-hangul3f")
+(setq default-input-method "korean-hangul")
 
 #+end_src
 
@@ -433,10 +433,9 @@ yaml              ; JSON, but readable
 
 (use-package! face-remap
   :custom-face
-  (default ((t (:family "Mononoki Nerd Font Mono"))))
-  (fixed-pitch ((t (:family "Mononoki Nerd Font Mono"))))
-  ;; (variable-pitch ((t (:family "SeoulHangang CB"))))
-  (variable-pitch ((t (:family "Noto Sans CJK KR"))))
+  (default ((t (:family "DroidSansMono Nerd Font Mono"))))
+  (fixed-pitch ((t (:family "SauceCodePro Nerd Font Mono"))))
+  (variable-pitch ((t (:family "DroidSansMono Nerd Font Mono"))))
 )
 
 ;; M-x counsel-fonts for other font options
