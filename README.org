@@ -1,5 +1,5 @@
 #+title: DOOM Emacs Configuration
-#+author: JJ Kim
+#+author: khow
 #+description: A Doom Emacs Configuration
 #+startup: fold
 #+property: header-args:emacs-lisp :tangle yes :comments no

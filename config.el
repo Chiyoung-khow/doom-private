@@ -22,18 +22,18 @@
 
 (use-package! face-remap
   :custom-face
-  (default ((t (:family "Mononoki Nerd Font Mono"))))
-  (fixed-pitch ((t (:family "Mononoki Nerd Font Mono"))))
-  ;; (variable-pitch ((t (:family "SeoulHangang CB"))))
-  (variable-pitch ((t (:family "Noto Sans CJK KR"))))
-)
-
-(use-package! face-remap
-  :custom-face
   (default ((t (:family "DroidSansMono Nerd Font Mono"))))
   (fixed-pitch ((t (:family "SauceCodePro Nerd Font Mono"))))
   (variable-pitch ((t (:family "DroidSansMono Nerd Font Mono"))))
 )
+
+;; M-x counsel-fonts for other font options
+;; (use-package! face-remap
+;;   :custom-face
+;;   (default ((t (:family "SauceCodePro Nerd Font Mono"))))
+;;   (fixed-pitch ((t (:family "SauceCodePro Nerd Font Mono"))))
+;;   (variable-pitch ((t (:family "SauceCodePro Nerd Font"))))
+;; )
 
 (use-package! mixed-pitch
   :hook
