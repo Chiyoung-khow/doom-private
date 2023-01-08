@@ -68,3 +68,5 @@
 (package! dired-ranger)
 
 (package! all-the-icons-dired)
+
+(package! solidity-mode)
